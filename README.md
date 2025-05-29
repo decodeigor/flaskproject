@@ -18,12 +18,13 @@ cd flaskproject
 
 2. Create a virtual environment:
 python -m venv venv
+Activate venv
 venv\Scripts\activate # or supply venv/bin/prompt
 
-3. Install dependencies:
+4. Install dependencies:
 pip install -r requirements.Txt
 
-4. Run the utility:
+5. Run the utility:
 python app.py
 
 Database instance
