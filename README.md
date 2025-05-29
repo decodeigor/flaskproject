@@ -30,5 +30,3 @@ python app.py
 Database instance
 
 When you run it, it robotically creates an SQLite database known as `newflask.db` with a table of posts.
-
-Translated with DeepL.Com (loose model)
