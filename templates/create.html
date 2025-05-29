@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Додавання дописа
+{% endblock %}
+
+{% block content %}
+<h1>Додавання дописа</h1>
+
+<form method="post" class="form-control">
+    <input type="text" name="title" placeholder="Введіть заголовок статті" class="form-control">
+    <input type="text" name="text" placeholder="Введіть текст статті" class="form-control">
+    <button class="btn btn-success"  type="submit">Додати</button>
+</form>
+
+{% endblock %}
